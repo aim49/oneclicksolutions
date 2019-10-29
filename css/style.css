@@ -8,6 +8,10 @@
     --oneClick3: #5f6366;
   }
 
+  body{
+    background-color: white!important;
+  }
+
 *{
     padding: 0;
     margin: 0;
@@ -90,10 +94,12 @@ body{min-height:100vh;}
  */
 #landing-page .bd-example{
     position: relative;
+    background-color: #f5f6fa;
 }
 
 #landing-page .carousel-item img{
     height: 85vh;
+    clip-path: polygon(50% 0%, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
 }
 #landing-page .carousel-item .carousel-caption{
     top: 35%;
@@ -143,13 +149,15 @@ body{min-height:100vh;}
     background-color: transparent;
 }
 
-#landing-page .carousel-item .cover{
+#landing-page .carousel-item img::after{
+content: "";
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.272);
+  clip-path: polygon(50% 0%, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
 }
 
 /* heading */
@@ -173,6 +181,7 @@ body{min-height:100vh;}
 #we-offer{
     padding: 4rem 0;
     background-color: #f5f6fa;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
 }
 #we-offer .card-box{
     background-color: white;
