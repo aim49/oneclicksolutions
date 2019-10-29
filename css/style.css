@@ -253,9 +253,8 @@ content: "";
 /* end of why choose us css */
 /* we offer css */
 #we-offer{
-    padding: 4rem 0;
+    padding: 4rem 0  5rem 0;
     background-color: #f5f6fa;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
 }
 #we-offer .card-box{
     background-color: white;
@@ -291,4 +290,36 @@ content: "";
 
 #we-offer .col-md-4{
     margin-bottom: 2rem;
+}
+
+/*fixed pos csss */
+
+#fixed-pos{
+    padding: 7rem 0;
+    background-image: url(../img/macbook-2617705_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#fixed-pos .f-width{
+width: 90%;
+margin: auto;
+}
+#fixed-pos .body-text p{
+    color: white;
+    font-size: .9em;
+    font-weight: bold;
+}
+#fixed-pos .body-text{
+    padding: 1rem 0;
+}
+
+#fixed-pos .body-text h4{
+    font-size: 2.5rem;
+    color: var(--oneClick2);
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 1px 1px 1px var(--oneClick3);
 }
