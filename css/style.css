@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,900|Roboto+Slab:400,700&display=swap');
+
+
+
+:root {
+    --oneClick1: #57b368;
+    --oneClick2: #dad873;
+    --oneClick3: #5f6366;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+font-family: 'Roboto Slab', serif;
+}
+/* nav color change */
+body{min-height:100vh;}
+.fixed-top{
+  transition:500ms ease;
+  background:transparent;
+}
+.fixed-top.scrolled{
+  background:#000;
+}
+  
+
+/* end of nav color change */
+
+#header .navbar-brand img{
+    width: 140px;
+    height: 50px;
+
+}
+
+/* navbar css */
+#header{
+    box-shadow: 1px 1px 2px var(--oneClick1);
+}
+
+#header .navbar .nav-item .nav-link{
+    color: var(--oneClick1);
+    transition: all 200ms ease-in-out;
+    font-size: .9em;
+}
+
+
+#header .navbar .nav-item .nav-link:hover{
+    color: var(--oneClick2);
+}
+
+#header .navbar .nav-item{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+#header .navbar .nav-item:last-child{
+    border: .1rem solid var(--oneClick1);
+    background-color: var(--oneClick1);
+}
+#header .navbar .nav-item:last-child:hover{
+    background-color: transparent;
+    border: .1rem solid var(--oneClick2);
+
+}
+#header .navbar .nav-item:last-child:hover .nav-link{
+    color: var(--oneClick2);
+}
+
+#header .navbar .nav-item:last-child .nav-link{
+    color: white;
+}
+
+
+#header .navbar .nav-item:last-child .nav-link:hover{
+    color: var(--oneClick2);
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent!important;
+}
+.navbar-light .navbar-toggler:focus{
+    outline: none!important;
+    border:  none!important;
+}
+
+/* end of navbar css
+ */
+#landing-page .bd-example{
+    position: relative;
+}
+
+#landing-page .carousel-item img{
+    height: 85vh;
+}
+#landing-page .carousel-item .carousel-caption{
+    top: 35%;
+}
+#landing-page .carousel-item .carousel-caption h5{
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 900;
+    font-size: 3em;
+    color: var(--oneClick1);
+}
+#landing-page .carousel-item .carousel-caption h5 span{
+    color: var(--oneClick3)!important;
+    text-shadow: 1px 1px 1px white;
+}
+
+
+#landing-page .carousel-item .carousel-caption p{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+#landing-page .carousel-item .carousel-caption a.service{
+    padding: .5rem 2rem;
+    background-color: transparent;
+    border: .1rem solid var(--oneClick1);
+    font-size: .9em;
+    color:var(--oneClick1);
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+}
+#landing-page .carousel-item .carousel-caption a.service:hover{
+    color: white;
+    background-color: var(--oneClick1);
+}
+
+#landing-page .carousel-item .carousel-caption a.started{
+    padding: .5rem 2rem;
+    background-color: var(--oneClick1);
+    border: .1rem solid var(--oneClick1);
+    font-size: .9em;
+    color: white;
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+}
+
+#landing-page .carousel-item .carousel-caption a.started:hover{
+    color: var(--oneClick1);
+    background-color: transparent;
+}
+
+#landing-page .carousel-item .cover{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.272);
+}
+
+/* heading */
+.heading {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.heading h3{
+    font-weight: 700;
+    color: var(--oneClick1);
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+.heading p{
+    font-size: 1rem;
+    color: var(--oneClick3);
+    padding-bottom: 3rem;
+}
+/* we offer css */
+#we-offer{
+    padding: 4rem 0;
+    background-color: #f5f6fa;
+}
+#we-offer .card-box{
+    background-color: white;
+}
+
+#we-offer .icon{
+    height: 180px;
+    width: 100%;
+    text-align: center;
+    padding-top: 2.5rem
+}
+#we-offer .icon i{
+    color: var(--oneClick1);
+    font-size: 7rem;
+}
+#we-offer .card-texts{
+    padding: .3rem;
+}
+#we-offer .card-texts h3{
+    color: var(--oneClick1);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+#we-offer .card-texts p{
+    color: var(--oneClick3);
+    font-size:.8rem;
+}
+
+#we-offer a.service{
+    text-decoration: none;
+}
+
+#we-offer .col-md-4{
+    margin-bottom: 2rem;
+}
