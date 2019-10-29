@@ -365,7 +365,54 @@ margin: auto;
 
 /* contact us soon */
 
-#contact-us{
-    padding: 4rem 0;
+#contact-us {
     background-color: #f5f6fa;
+    margin-top: 3rem;
 }
+#contact-us .contact-section{
+    background: url(../img/computer-1869236_640.jpg) no-repeat center;
+    background-size: cover;
+    padding: 40px 0;
+  }
+
+  
+  
+  #contact-us .contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+  
+  #contact-us .contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: white;
+    transition: 0.5s;
+  }
+  #contact-us .contact-form-text:focus{
+    box-shadow: 0 0 10px 4px var(--oneClick2);
+  }
+  #contact-us  textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+  }
+  #contact-us .contact-form-btn{
+
+    border: 0;
+    background: var(--oneClick1);
+    color: #fff;
+    padding: .4rem 2rem;
+    cursor: pointer;
+    transition:all ease-in-out 0.5s;
+  }
+  #contact-us  .contact-form-btn:hover{
+    background: var(--oneClick2);
+  }
+  /* end of conteact  */
