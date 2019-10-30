@@ -366,14 +366,17 @@ margin: auto;
 /* contact us soon */
 
 #contact-us {
-    background-color: #f5f6fa;
     margin-top: 3rem;
 }
 #contact-us .contact-section{
-    background: url(../img/computer-1869236_640.jpg) no-repeat center;
+    background-image: linear-gradient(rgba(0,0,0, .105),rgba(0,0,0, .105)), url(../img/computer-1869236_640.jpg);
     background-size: cover;
     padding: 40px 0;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
   }
+
 
   
   
@@ -416,3 +419,72 @@ margin: auto;
     background: var(--oneClick2);
   }
   /* end of conteact  */
+
+
+  /* footoer section */
+
+  /* footer section */
+#footer{
+	padding: 2rem 0 0 0;
+	width: 100%;
+
+
+}
+ 
+#footer div h3{
+	color: var(--oneClick1);
+	font-weight: bold;
+	font-size: 1.3rem;
+}
+#footer div h3 span{
+	color: white;
+}
+#footer div .vertical-line{
+	width: 6rem;
+	background: var(--oneClick1);
+	height: .2rem;
+}
+#footer div p{
+	padding-top: 1.5rem;
+	color: #fff;
+	font-size: .9rem;
+	font-weight: 300;
+}
+#footer div p small i{
+	padding-right: .3rem;
+}
+footer{
+	background-color: #121212;
+	color: white;
+}
+.Final-footer{
+	display: block;
+	text-align: center;
+	padding: .5rem 0 .2rem 0;
+}
+.Final-footer p a{
+	color: white;
+}
+.Final-footer p a:hover{
+	color: var(--oneClick1);
+	transition: ease 1s;
+	text-decoration: none;
+}
+
+
+.socials-footer li{
+    display: inline-block;
+    margin-top: 1.5rem;
+    list-style: none;
+    padding-right: .5rem ;
+
+}
+.socials-footer li i{
+    color: white;
+    font-size: 1.5rem;
+    transition: all 300ms ease-in-out;
+}
+.socials-footer li i:hover{
+    color: var(--oneClick1);
+}
+/* end footer section */
