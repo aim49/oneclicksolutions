@@ -637,3 +637,92 @@ footer{
 
   
   /* enf of current section */
+
+  /* small sectino servies */
+
+  .s-detail h3{
+      color: var(--oneClick2);
+      font-weight: bold;
+      margin-bottom: 3rem;
+  }
+
+  /* and of samll section services */
+
+
+
+  /* portfolio  */
+
+  #p-create{
+      background-color: var(--oneClick1);
+      padding: 3rem 0;
+      margin-top: 2rem;
+  }
+
+  #p-create h3{
+      color: white;
+      font-weight: bold;
+
+  }
+/* contact us section */
+
+#contact-us2{
+    margin-top: 3rem;
+}
+#contact-us2 .contact-section{
+    background-color: white;
+    background-size: cover;
+    padding: 40px 0;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+  
+  
+  #contact-us2 .contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+  
+  #contact-us2 .contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: white;
+    padding: 20px 40px;
+    outline: none;
+    color: white;
+    transition: 0.5s;
+    border: .2rem solid #111;
+  }
+  #contact-us2 .contact-form-text:focus{
+    box-shadow: 0 0 10px 4px var(--oneClick2);
+  }
+  #contact-us2  textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+  }
+  #contact-us2 .contact-form-btn{
+
+    border: 0;
+    background: var(--oneClick1);
+    color: #fff;
+    padding: .4rem 2rem;
+    cursor: pointer;
+    transition:all ease-in-out 0.5s;
+  }
+  #contact-us2  .contact-form-btn:hover{
+    background: var(--oneClick2);
+  }
+
+  #contact-us2  .icons-detail i{
+      color: var(--oneClick1);
+  }
+  /* end of conteact  */
+
+
